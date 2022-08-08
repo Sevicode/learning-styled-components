@@ -1,9 +1,9 @@
-
+import {Button} from "./components/Button.styles"
 
 function App() {
   return (
-    <div className="App">
-    
+    <div>
+      <Button>Click this button</Button>
     </div>
   );
 }
