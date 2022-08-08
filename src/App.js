@@ -1,9 +1,13 @@
 import {Button} from "./components/Button.styles"
+import {Global} from "./components/Global.styles"
 
 function App() {
   return (
     <div>
-      <Button>Click this button</Button>
+      <Global />
+      <Button lightTheme lightColor>Light Theme</Button>
+      <Button>Dark Theme</Button>
+      
     </div>
   );
 }
